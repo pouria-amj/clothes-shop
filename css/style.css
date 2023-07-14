@@ -1,0 +1,107 @@
+:root {
+    --red: rgba(151, 64, 76, 1);
+    --orang: rgba(228, 44, 20, 1);
+    --dark-gray: rgba(67, 67, 67, 1);
+    --blue:rgba(14, 139, 241, 1);
+    --white:rgba(255, 255, 255, 1);
+    --gray: rgba(203, 199, 222, 1);
+    --white-2:rgba(245, 244, 242, 1);
+    --gray-2: rgba(143, 143, 143, 1);
+
+    --main-font-size:62.5%;
+    --font-size:1.6rem
+    }
+    html{
+        font-size: var(--main-font-size);
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-size: var(--font-size);
+  }
+  input {
+    border: 2px solid #DADDEC;
+    margin: 5px 0 10px;
+    width: 40rem;
+    height: 5rem;
+    font-size: 1.6rem;
+    padding: 1.4rem;
+    border-radius: 4rem;
+  }
+ .input{
+    padding-left: 1.5rem;
+ }
+  .red{
+    color: var(--red);
+  }
+.gray{
+    color: var(--gray);
+}
+.nav-bar{
+    background: #FBFAFF;
+box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+}
+.bg-1{
+    background-image: url(../img/unsplash_QxNqRXniG_w.png);
+    height: 102rem;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.white{
+    color: var(--white);
+}
+.bg-text{
+    font-size: 4rem;
+}
+.bg-text-1{
+ padding-top: 43rem   ;
+ padding-left: 8rem;
+}
+input[type=email]{
+    border: 0 solid ;
+    margin: 5px 0 10px;
+    width: 32rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    padding: 1.4rem;
+    border-radius: 0;
+    background-color: var(--white-2);
+}
+input[type=password]{
+    border: 0 solid ;
+    margin: 5px 0 10px;
+    width: 32rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    padding: 1.4rem;
+    border-radius: 0;
+    background-color: var(--white-2);
+
+}
+.aside{
+    width: 27%;
+}
+.section{
+    width: 73%;
+}
+.fs-7{
+    font-size: 3.6rem;
+}
+.btn-1{
+    width: 32rem;
+    height: 6.3rem;
+    background-color: var(--orang);
+    border-color: var(--orang);
+}
+.blue{
+    color: var(--blue);
+}
+.gray-2{
+    color: var(--gray-2);
+}
+.footer{
+    padding-top: 7rem;
+}

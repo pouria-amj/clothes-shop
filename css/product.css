@@ -1,0 +1,87 @@
+:root {
+    --red: rgba(151, 64, 76, 1);
+    --orang: rgba(228, 44, 20, 1);
+    --dark-gray: rgba(67, 67, 67, 1);
+    --blue:rgba(38, 157, 224, 1);
+    --white:rgba(255, 255, 255, 1);
+    --gray: rgba(221, 221, 221, 1);
+    --white-2:rgba(245, 244, 242, 1);
+    --gray-2: rgba(128, 128, 128, 1);
+
+    --main-font-size:62.5%;
+    --font-size:1.6rem
+    }
+    html{
+        font-size: var(--main-font-size);
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-size: var(--font-size);
+        background-color: rgba(243, 243, 247, 1);
+  }
+  input {
+    border: 2px solid #DADDEC;
+    margin: 5px 0 10px;
+    width: 40rem;
+    height: 5rem;
+    font-size: 1.6rem;
+    padding: 1.4rem;
+    border-radius: 4rem;
+  }
+ .input{
+    padding-left: 1.5rem;
+ }
+ .nav-bar{
+    background: #FBFAFF;
+box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+}
+.product-pic{
+    height:50rem ;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+}
+.t-1{
+    border-radius: 0.6rem;
+    border: 0.1rem solid #B4B4B4;
+}
+.pt-7{ 
+    padding-top: 10rem;
+}
+.big-t{
+    padding-top: 9rem;
+    padding-left: 16.5rem;
+}
+.fs-40{
+    font-size: 4rem;
+}
+.fs-52{
+    font-size: 5.2rem;
+}
+.orang{
+    background-color: var(--orang);
+    border-color: var(--orang);
+}
+.btn-1{
+    width: 10rem;
+    height: 4rem;
+}
+.pt-8{
+    padding-top: 27rem;
+}.box{
+    width: 16%;
+    height: 21.6rem;
+  background-color: var(--white);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 1.4rem;
+  }
+  .blue-1{
+    color: var(--blue);
+  }
+  .footer{
+    padding-top: 8rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
